@@ -17,4 +17,4 @@ def coord(root):
             traverse(root.right, x + 1, y + 1)
 
     if root:
-        traverse(root)
+        traverse(root, x, y)
